@@ -12,7 +12,7 @@ from modelscope import snapshot_download
 
 module_name = "chatutil"
 
-MODELPATH = "/Users/sunchang/.cache/huggingface/hub/models--2Noise--ChatTTS/snapshots/cc14302f34d7855eb3420d1fd48345012ff1460d/asset"
+MODELPATH = "~/.cache/huggingface/hub/models--2Noise--ChatTTS/snapshots/cc14302f34d7855eb3420d1fd48345012ff1460d/asset"
  
 class ChatTTSUtil:
     def __init__(self ,
